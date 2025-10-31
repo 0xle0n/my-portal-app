@@ -1,16 +1,27 @@
-# React + Vite
+# 🌀 Minecraft Portal Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ein einfaches React-Tool, um **Overworld- und Nether-Portale** in Minecraft zu verwalten und ihre **paarweisen Distanzen** zu berechnen.  
+Perfekt, um Portale zwischen Dimensionen zu verlinken und Entfernungen zu prüfen.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ✨ Portale hinzufügen (Overworld oder Nether)  
+- 📐 Automatische Distanzberechnung (mit Nether-Faktor 8 für X und Z)  
+- 🧱 Schönes Portal-Design mit Overworld- und Nether-Optik  
+- ❌ Portale können wieder gelöscht werden  
+- ⚡ Superschnell durch [Vite](https://vitejs.dev/)  
+- 💅 Gestylt mit [Tailwind CSS](https://tailwindcss.com/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Projekt klonen
+git clone https://github.com/0xle0n/my-portal-app.git
+cd my-portal-app
+
+# Abhängigkeiten installieren
+npm install
